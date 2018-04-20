@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos del alumno</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script><!--necesario*/-->
+
+</head>
+
+<body>
+
+<div data-role="page" id="principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1> Datos del alumno </h1>
+ </div>
+ 
+<div data-role="main" class"ui-content">
+ <div data-role="collapsible" data-content-theme="false">
+   <h1>Foto de perfil</h1>
+    <div>
+      <p>Esta es mi imagen de perfil: </p>
+       <br>
+       </div>
+       <div>
+        <img src="imagenes/fotoPerfil.jpg" width="50%" height="50%">
+        </div>
+       </div>
+      </div>
+
+      <div>
+      <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+         <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Datos Generales</h2>
+          <p>se muestra el nombre</p>
+         </a>
+      </li>
+      
+      <li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>fecha de nacimiento</h2>
+          <p>Se muestra el dia, mes y año</p>
+         </a>
+      </li>
+      
+      <li class="ui-first-child ui-last-child">
+         <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>DOMICILIO</h2>
+          <p>Se muestra el domicilio del alumno</p>
+         </a>
+      </li>
+      
+      <li class="ui-first-child ui-last-child">
+         <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Deporte Favorito</h2>
+          <p>muestra el deporte que mas le agrada al alumno</p>
+         </a>
+      </li>
+      
+      <li class="ui-first-child ui-last-child">
+         <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>OTROS GUSTOS E INTERESES</h2>
+         <p>muestra otros gustos del alumno</p>
+         </a>
+      </li>
+     </ul>
+    </div>
+    
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+       <img src="imagenes/persona_rosa.png" width="46" height="46">
+     </div>
+     
+     <div>
+        <h4>Aplicacion dos</h4>
+        <h4>Yailin Gonzalez Reyes</h4>
+       </div>
+      </div>
+     </div>
+     
+     <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1>NOMBRE</h1>
+        </div>
+      <div data-role="content" align="center">
+        <div>
+          <h2>Gonzalez Reyes Yailin</h2>
+        </div>
+      </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+         <img src="imagenes/persona_rosa.png" width="46" height="46">
+        </div>
+          <h4>Aplicacion Dos, YGR</h4>
+        </div>
+       </div>
+
+       <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1>FECHA DE NACIMIENTO</h1>
+        </div>
+      <div data-role="content" align="center">
+        <div>
+          <h2>28/julio/2001</h2></div>
+        </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+         <img src="imagenes/persona_rosa.png" width="46" height="46">
+        </div>
+          <h4>Aplicacion Dos, YGR</h4>
+        </div>
+       </div>
+
+       <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1>DOMICILIO</h1>
+        </div>
+      <div data-role="content" align="center">
+        <div>
+          <h2>Soledad Morelos calle Diagonal Tejupa</h2></div>
+        </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+         <img src="imagenes/persona_rosa.png" width="46" height="46">
+        </div>
+          <h4>Aplicacion Dos, YGR</h4>
+        </div>
+       </div>
+
+       <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1>DEPORTE FAVORITO</h1>
+        </div>
+      <div data-role="content" align="center">
+        <div>
+          <h2>FUTBOL</h2>
+      <img src="imagenes/deporte.jpg" width="50" height="50">
+        </div>
+        </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+         <img src="imagenes/persona_rosa.png" width="46" height="46">
+        </div>
+          <h4>Aplicacion Dos, YGR</h4>
+        </div>
+       </div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1>GUSTOS E INTERESES</h1>
+        </div>
+      <div data-role="content" align="center">
+        <div>
+          <h2>Escuchar musica</h2></div>
+          <img src="imagenes/pasatiempo.jpg" width="50%" height="50%">
+        </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+         <img src="imagenes/persona_rosa.png" width="46" height="46">
+        </div>
+          <h4>Aplicacion Dos, YGR</h4>
+        </div>
+       </div>
+</body>
+</html>
+
+
+
+        
+      
+          
+      
+       
+         
+        
+       
+      
+      
+          
+         
+  
